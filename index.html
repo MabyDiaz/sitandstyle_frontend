@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sit&Style</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Link SweetAlert2 -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- Link Font Awesome -->
+    <script src="https://kit.fontawesome.com/1977d5c537.js" crossorigin="anonymous"></script>
+
+    <!-- Modulo de productos.js -->
+    <script type="module" src="./js/productos.js"></script>
+    <script type="module" src="./js/checkout.js"></script>
+    <script type="module" src="./js/metodos_pagos.js"></script>
+
+    <!-- SDK MercadoPago -->
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+
+</head>
+
+<body class="container tienda">
+
+    <header class="header">
+        <div class="nav-content">
+            <div class="logo">
+                <p class="p-logo">Sit<span class="y-logo">&</span>Style</p>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Tienda</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="icons">
+                <div class="icon-cart">
+                    <img src="./img/shopping-cart.png" alt="Carrito de Compras">
+                    <span>0</span>
+                </div>
+                <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+                <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos..." class="search-input">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+
+
+    <main>
+        <!-- Slider -->
+        <section class="container-carousel">
+            <div class="carouseles" id="slider">
+                <section class="slider-section">
+                    <img src="img/slider.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/slider1.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/slider2.jpg">
+                </section>
+            </div>
+
+            <div class="btn-left"><i class="fa-solid fa-angles-left"></i></div>
+            <div class="btn-right"><i class="fa-solid fa-angles-right"></i></div>
+
+        </section>
+
+
+        <section class="list-products" id="productos">
+            <!-- Los productos se cargan aquí desde el JavaScript -->
+        </section>
+
+        <button id="volver-busqueda" style="display: none;"><i class="fas fa-angle-double-left"></i></button>
+
+
+        <div id="mensaje-no-encontrado" style="display: none;">
+            No se encontraron productos.
+        </div>
+
+
+        <!-- Carrito -->
+        <div id="overlay" class="overlay"></div>
+        <aside class="cart-table" id="carrito">
+            <div class="cart-header">
+                <h2>Carrito de Compras</h2>
+                <button class="close">✖</button>
+            </div>
+            <div class="subtitle">
+                <h5>Imagen</h5>
+                <h5>Producto</h5>
+                <h5>Precio</h5>
+                <h5>Cantidad</h5>
+                <h5>Eliminar</h5>
+            </div>
+            <div class="list-cart">
+                <!-- Productos del carrito se insertarán aquí -->
+            </div>
+            <div id="total" class="cart-total">Total: $0.00</div>
+            <div class="btn">
+                <button class="clear-cart">Vaciar carrito</button>
+                <button class="checkOut">Finalizar Compra</button>
+            </div>
+        </aside>
+
+        <!-- Paginación -->
+        <div class="pagination" id="pagination">
+            <button id="first-page"><i class="fas fa-angle-double-left"></i></button>
+            <button id="prev-page"><i class="fas fa-angle-left"></i></button>
+            <span id="page-info">1 de 1</span>
+            <button id="next-page"><i class="fas fa-angle-right"></i></button>
+            <button id="last-page"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="copy"> &copy; 2024 | Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

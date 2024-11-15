@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "nombre": "Silla Braco",
+    "descripcion": "Silla de madera",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_braco.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Pino Abeto Europeo",
+    "color": "roble claro",
+    "reforzada": false,
+    "tapizada": false
+  },
+
+  {
+    "id": 2,
+    "nombre": "Silla Kurve",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_kurve.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Pino Abeto Europeo",
+    "color": "roble oscuro",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 3,
+    "nombre": "Silla Pampa",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_pampa.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Álamo",
+    "color": "natural",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 4,
+    "nombre": "Silla Salta",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_salta.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Arce Europeo",
+    "color": "natural",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 5,
+    "nombre": "Silla Tauro",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_tauro.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro del Líbano",
+    "color": "caoba",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 6,
+    "nombre": "Silla Traful",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_traful.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Arce Europeo",
+    "color": "natural",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 7,
+    "nombre": "Silla Lore",
+    "descripcion": "Silla de madera",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_lore.png",
+    "material": "madera y plastico",
+    "tipo": "fisico",
+    "tipoMadera": "Arce Europeo",
+    "color": "natural",
+    "reforzada": false,
+    "tapizada": false
+  },
+
+  {
+    "id": 8,
+    "nombre": "Silla Andes",
+    "descripcion": "Silla de madera y plástico",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2200,
+    "imagen": "./img/silla_andes.png",
+    "tipo": "fisico",
+    "material": "madera y plastico",
+    "tipoMadera": "Cedro Español",
+    "color": "natural",
+    "reforzada": false,
+    "tapizada": false
+  },
+
+  {
+    "id": 9,
+    "nombre": "Silla Reina Ana",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2100,
+    "imagen": "./img/silla_reina_ana.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro del Líbano",
+    "color": "blanco nacarado",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 10,
+    "nombre": "Silla Cuyo",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2300,
+    "imagen": "./img/silla_cuyo.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Palo Santo de la India",
+    "color": "negro",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 11,
+    "nombre": "Silla Patagonia",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2400,
+    "imagen": "./img/silla_patagonia.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Arce Europeo ",
+    "color": "natural",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 12,
+    "nombre": "Silla Libertad",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2000,
+    "imagen": "./img/silla_libertad.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Arce Europeo ",
+    "color": "natural",
+    "reforzada": false,
+    "tapizada": true
+  },
+
+  {
+    "id": 13,
+    "nombre": "Silla Aries",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 1900,
+    "imagen": "./img/silla_aries.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Álamo",
+    "color": "natural",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 14,
+    "nombre": "Silla Sima",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2050,
+    "imagen": "./img/silla_sima.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro del Líbano",
+    "color": "gris plata",
+    "reforzada": true,
+    "tapizada": true
+  },
+  {
+    "id": 15,
+    "nombre": "Silla Pulpo",
+    "descripcion": "Silla de madera",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2150,
+    "imagen": "./img/silla_pulpo.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro del Líbano",
+    "color": "negro",
+    "reforzada": false,
+    "tapizada": false
+  },
+  {
+    "id": 16,
+    "nombre": "Silla Mare",
+    "descripcion": "Silla de madera tapizada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2250,
+    "imagen": "./img/silla_mare.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Fresno Americano",
+    "color": "petiribí",
+    "reforzada": false,
+    "tapizada": true
+  },
+  {
+    "id": 17,
+    "nombre": "Silla Cielo",
+    "descripcion": "Silla de madera tapizada y reforzada",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2300,
+    "imagen": "./img/silla_cielo.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro Español",
+    "color": "natural",
+    "reforzada": true,
+    "tapizada": true
+  },
+  {
+    "id": 18,
+    "nombre": "Silla Montreal",
+    "descripcion": "Silla Moderna Premium",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2200,
+    "imagen": "./img/silla_montreal.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro Español",
+    "color": "natural",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 19,
+    "nombre": "Silla Luna",
+    "descripcion": "Silla de plástico",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2100,
+    "imagen": "./img/silla_luna.png",
+    "tipo": "fisico",
+    "material": "plastico",
+    "color": "transparente",
+    "reforzada": true
+  },
+
+  {
+    "id": 20,
+    "nombre": "Silla Vento",
+    "descripcion": "Silla Moderna Premium",
+    "estrellas": "./img/estrellas.png",
+    "precio": 2200,
+    "imagen": "./img/silla_vento.png",
+    "tipo": "fisico",
+    "material": "madera",
+    "tipoMadera": "Cedro Español",
+    "color": "negro",
+    "reforzada": true,
+    "tapizada": true
+  },
+
+  {
+    "id": 21,
+    "nombre": "Diseño para sillas",
+    "descripcion": "Libro digital",
+    "estrellas": "./img/estrellas.png",
+    "precio": 1500,
+    "imagen": "./img/libro.png",
+    "tipo": "digital",
+    "urlDescarga": "./downloads/Guía_de_Diseño_de_Sillas",
+    "formato": "pdf",
+    "peso": "298KB"
+  }
+]
